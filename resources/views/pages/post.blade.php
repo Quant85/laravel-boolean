@@ -11,7 +11,9 @@
   <ul>
   <?php 
     foreach ($posts as $key => $post) { ?>
-      <li class="test"> <?php echo "Titolo {$post->title}" ;?></li>
+      <h2><?php echo " {$post->title}" ;?></h2>
+      <h3><?php echo " {$post->subtitle}" ;?></h3>
+      <p><?php echo " {$post->body}" ;?></p>
 
   <?php } ?>
 </ul>
