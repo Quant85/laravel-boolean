@@ -2,14 +2,14 @@
 .jumbotron{
   display: flex;
   justify-content: center;
-  align-items: center;
   border-bottom: 10px solid grey;
   font-size: 2rem;
   border-radius: 15%;
   .logo{
     width: 15%;
     position: relative;
-    right: 3%;
+    right: 4%;
+    bottom: -12%;
     z-index: -1;
   }
 }
